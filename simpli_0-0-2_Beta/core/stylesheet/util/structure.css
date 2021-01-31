@@ -37,7 +37,12 @@
 .section {
     background-color: var(--color-white);
     transition: 0.2s ease all;
-
+    z-index: 5;
+}
+.coverpg-section {
+    background-color: var(--color-white);
+    transition: 0.2s ease all;
+    z-index: 5;
 }
 
 /* MAKE SOMETHING AT THE TOP WORK */
