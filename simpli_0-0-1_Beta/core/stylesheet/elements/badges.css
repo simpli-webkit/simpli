@@ -1,0 +1,31 @@
+/*
+AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
+*/
+
+.badge-primary {
+    font-size: calc(100% - 6px);
+    padding: 8px 12px 8px 12px;
+    background-color: #363941;
+    color: white;
+    border-radius: 10px;
+    margin: 6px 10px 6px 10px;
+    vertical-align: 10%;
+}
+.badge-secondary {
+    font-size: calc(100% - 6px);
+    padding: 8px 12px 8px 12px;
+    background-color: #bdbec2;
+    color: black;
+    border-radius: 10px;
+    margin: 6px 10px 6px 10px;
+    vertical-align: 10%;
+}
+.badge-tertiary {
+    font-size: calc(100% - 6px);
+    padding: 8px 12px 8px 12px;
+    background-color: #d14949;
+    color: white;
+    border-radius: 10px;
+    margin: 6px 10px 6px 10px;
+    vertical-align: 10%;
+}

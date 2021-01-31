@@ -1,0 +1,14 @@
+document.writeln("<script type='text/javascript' src='https://acol248.github.io/simpli-webkit/simpli_0-0-1_Beta/core/scripts/structure.js'></script>");
+document.writeln("<script type='text/javascript' src='https://acol248.github.io/simpli-webkit/simpli_0-0-1_Beta/core/scripts/viewport.js'></script>");
+document.writeln("<script type='text/javascript' src='https://acol248.github.io/simpli-webkit/simpli_0-0-1_Beta/core/scripts/navbar.js'></script>");
+document.writeln("<script type='text/javascript' src='https://acol248.github.io/simpli-webkit/simpli_0-0-1_Beta/core/scripts/demo.js'></script>");
+document.writeln("<script type='text/javascript' src='https://acol248.github.io/simpli-webkit/simpli_0-0-1_Beta/core/scripts/pageloader.js'></script>");
+
+
+function sleep(milliseconds) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+      currentDate = Date.now();
+    } while (currentDate - date < milliseconds);
+}

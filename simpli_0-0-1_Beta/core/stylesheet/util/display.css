@@ -1,0 +1,22 @@
+/*
+AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
+*/
+
+.disp-none {
+    display: none;
+}
+.disp-block {
+    display: block;
+}
+.disp-flex {
+    display: flex;
+}
+.disp-grid {
+    display: grid;
+}
+.disp-table {
+    display: table;
+}
+.disp-inline {
+    display: inline;
+}
