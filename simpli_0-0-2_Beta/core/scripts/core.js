@@ -1,8 +1,8 @@
-document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/simpli_0-0-1_Beta/core/scripts/structure.js'></script>");
-document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/simpli_0-0-1_Beta/core/scripts/viewport.js'></script>");
-document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/simpli_0-0-1_Beta/core/scripts/navbar.js'></script>");
-document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/simpli_0-0-1_Beta/core/scripts/demo.js'></script>");
-document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/simpli_0-0-1_Beta/core/scripts/pageloader.js'></script>");
+document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/core/scripts/structure.js'></script>");
+document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/core/scripts/viewport.js'></script>");
+document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/core/scripts/navbar.js'></script>");
+document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/core/scripts/demo.js'></script>");
+document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/core/scripts/pageloader.js'></script>");
 
 
 function sleep(milliseconds) {
