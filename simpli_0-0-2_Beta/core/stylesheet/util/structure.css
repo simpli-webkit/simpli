@@ -3,7 +3,7 @@
     -webkit-overflow-scrolling: touch;
     width: auto;
     height: 100%;
-
+    overflow-x: hidden;
 }
 
 .container-sidebar {
