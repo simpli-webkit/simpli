@@ -1,0 +1,56 @@
+/*
+AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
+*/
+
+/* VARIABLES */
+:root{
+    --color-transparent: rgba(0,0,0,0);
+    --color-transparent-hover: rgba(26, 26, 26, 0.14);
+
+    --color-theme-purple: #7a5f96;
+    --color-theme-purpPink: #df85e9;
+    --color-theme-blue: #B1BDEF;
+    --color-theme-yellow: #ebeb2c;
+    --color-theme-green: #8cebab;
+    --color-theme-red: #ff6961;
+
+    --color-theme-purple-dark: #432b5c;
+    --color-theme-purpPink-dark: #95419e;
+    --color-theme-blue-dark: #6171b4;
+    --color-theme-yellow-dark: #c4c410;
+    --color-theme-green-dark: #49af6b;
+    --color-theme-red-dark: #c43831;
+
+    --color-black: #000000;
+    --color-grey-dark: #363636;
+    --color-grey: #7e7e7e;
+    --color-grey-light: #d4d4d4;
+    --color-grey-light-ultra: #e9e9e9;
+    --color-white: #ffffff;
+
+    --color-brown: #964B00;
+    --color-maroon: #800000;
+    --color-red: #FF0000;
+    --color-orange: #FFA500;
+    --color-yellow: #FFFF00;
+    --color-purple: #800080;
+    --color-lime: #00FF00;
+    --color-green: #008000;
+    --color-navy: #000080;
+    --color-blue: #0000FF;
+    --color-aqua: #00FFFF;
+    --color-teal: #008080;
+    --color-pink: #FF69B4;
+
+    --color-red-2: #C0392B;
+    --color-green-2: #2ECC71;
+    --color-blue-2: #3498DB;
+    --color-purple-2: #8E44AD;
+    --color-cyan: #00B7EB;
+    --color-turquoise: #40E0D0;
+    --color-yellow: #F4D03F;
+    --color-orange-2: #E67E22;
+    --color-navy-grey: #34495E;
+    --color-hot-pink: #FF1493;
+    --color-crimson: #DC143C;
+}

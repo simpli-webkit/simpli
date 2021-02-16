@@ -1,0 +1,24 @@
+/*
+AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
+*/
+
+.sh-element-weak {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+}
+.sh-element {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.34), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+.sh-element-strong {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.66), 0 6px 20px 0 rgba(0, 0, 0, 0.62);
+}
+
+
+.sh-text-weak {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.18);
+}
+.sh-text {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.32);
+}
+.sh-text-strong {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.65);
+}
