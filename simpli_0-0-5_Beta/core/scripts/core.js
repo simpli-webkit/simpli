@@ -1,8 +1,7 @@
-document.writeln("<script type='text/javascript' src='simpli/core/scripts/structure.js'></script>");
-document.writeln("<script type='text/javascript' src='simpli/core/scripts/viewport.js'></script>");
-document.writeln("<script type='text/javascript' src='simpli/core/scripts/navbar.js'></script>");
-document.writeln("<script type='text/javascript' src='simpli/core/scripts/demo.js'></script>");
-document.writeln("<script type='text/javascript' src='simpli/core/scripts/pageloader.js'></script>");
+document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/simpli_0-0-5_Beta/core/scripts/structure.js'></script>");
+document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/simpli_0-0-5_Beta/core/scripts/viewport.js'></script>");
+document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/simpli_0-0-5_Beta/core/scripts/navbar.js'></script>");
+document.writeln("<script type='text/javascript' src='https://simpli-webkit.github.io/simpli/simpli_0-0-5_Beta/core/scripts/pageloader.js'></script>");
 
 
 function sleep(milliseconds) {
