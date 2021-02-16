@@ -24,10 +24,6 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
 @import url("elements/navbar.css");
 @import url("elements/tooltips.css");
 
-
-/* OPTIONAL CORE */
-@import url("../../../demo.css");
-
 /* FONT ELEMENTS */
 @font-face {
     font-family: 'expressway_rg';
