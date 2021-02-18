@@ -53,7 +53,7 @@ function sidebarDropdownTrigger(selector) {
 
 $(document).ready(function() {
   var windH = $(window).height(); 
-  triggerH = windH - 140;
+  triggerH = windH - 220;
   $(window).scroll(function() {
 
     if($(this).scrollTop() > triggerH) { 
