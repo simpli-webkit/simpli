@@ -1,0 +1,24 @@
+/*
+AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
+*/
+
+.pageloader {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(26, 26, 26);
+    transition: all linear 0.5s;
+    z-index: 99999999999999;
+}
+
+.pageloaderB {
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .2s;
+}

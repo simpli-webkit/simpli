@@ -1,0 +1,19 @@
+/*
+AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
+*/
+
+.vis-visible {
+    visibility: visible;
+}
+.vis-hidden {
+    visibility: hidden;
+}
+.vis-collapse {
+    visibility: collapse;
+}
+.vis-initial {
+    visibility: initial;
+}
+.vis-inherit {
+    visibility: inherit;
+}

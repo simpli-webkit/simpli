@@ -1,0 +1,61 @@
+.container {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    width: auto;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container-sidebar {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    width: auto;
+    height: 100%;
+}
+.content {
+    height: auto;
+}
+.fixed-sidebar {
+    margin-left: 300px; /* Same as the width of the sidebar */
+    /*position: fixed;*/
+    z-index: 5;
+    height: 100%;
+    transition: 0.2s ease all;
+}
+.section-fixed {
+    /*position: fixed;*/
+    z-index: 5;
+    /*height: 100%;*/
+    transition: 0.2s ease all;
+}
+.cover {
+    margin-top: 85px;
+    z-index: 5;
+    transition: 0.2s ease all;
+    min-height: 800px !important;
+}
+.section {
+    background-color: var(--color-white);
+    transition: 0.2s ease all;
+    z-index: 5;
+}
+.coverpg-section {
+    background-color: var(--color-white);
+    transition: 0.2s ease all;
+    z-index: 5;
+}
+
+
+.sitecontent {
+    position: relative;
+    transition: .2s;
+}
+.navbarcontent {
+    position: fixed;
+    transition: .2s;
+}
+
+/* MAKE SOMETHING AT THE TOP WORK */
+.primary-sect {
+    margin-top: 85px;
+}

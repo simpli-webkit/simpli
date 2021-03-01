@@ -1,0 +1,23 @@
+/*
+AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
+*/
+
+.list-container {
+    display: flex;
+}
+
+.list-sector {
+    list-style: none;
+    display: grid;
+    border: solid rgb(36, 36, 36);
+    border-width: 1.5px;
+    border-radius: 8px;
+    padding: 0;
+    /* CUSTOMISABLE */
+}
+
+.list-item {
+    border-width: 1px;
+    padding: 15px;
+    
+}
