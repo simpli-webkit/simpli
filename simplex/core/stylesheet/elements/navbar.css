@@ -93,7 +93,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     padding: 0px 0px 0px 18px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 720px) {
     .navbar-side-fixed {
         visibility: hidden;
     }
@@ -189,7 +189,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
 
 }
 
-@media screen and (max-width: 960px) { /* Standard mobile devices */
+@media screen and (max-width: 720px) { /* Standard mobile devices */
     .navbar-mobile {
         position: fixed;
     }
@@ -201,7 +201,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     }
 }
 
-@media screen and (min-width: 961px) {
+@media screen and (min-width: 721px) {
     .navbar-mobile {
         display: none;
     }
@@ -424,7 +424,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     padding-right: 30px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 720px) {
     .navbar-links {
         visibility: hidden;
         display: none;

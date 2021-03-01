@@ -8,7 +8,7 @@ $(document).ready(function () {
 
     function runner() {
         var curWidth = $(window).width();
-        if (curWidth < 961) {
+        if (curWidth < 721) {
             var wH = $(window).height() - 85;
             var wW = $(window).width();
 
@@ -39,7 +39,7 @@ $(document).ready(function () {
 
     $(window).resize(function runner() {
         var curWidth = $(window).width();
-        if (curWidth < 961) {
+        if (curWidth < 721) {
             var wH = $(window).height() - 85;
             var wW = $(window).width();
 
@@ -75,7 +75,7 @@ $(document).ready(function () {
 
 function runner2() {
     var curWidth = $(window).width();
-    if (curWidth < 961) {
+    if (curWidth < 721) {
         function windowContainer_mobile() {
             var wH = $(window).height() - 85;
             var wW = $(window).width();
