@@ -9,7 +9,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
 }
   
 .tooltip .tooltip-text {
-  width: 200px;
+  width: 80px;
   background-color: var(--color-grey-dark);
   color: #fff;
   text-align: center;
