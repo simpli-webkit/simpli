@@ -17,7 +17,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
   padding: 5px 0;
   bottom: 100%;
   left: 50%;
-  margin-left: -100px;
+  //margin-left: -100px;
 
   position: absolute; 
   z-index: 999999999999999999999999999999;
