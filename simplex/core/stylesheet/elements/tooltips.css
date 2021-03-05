@@ -15,9 +15,8 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-  bottom: 100%;
   left: 50%;
-  //margin-left: -100px;
+  margin-left: -40px;
 
   position: absolute; 
   z-index: 999999999999999999999999999999;
