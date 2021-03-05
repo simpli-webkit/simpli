@@ -6,10 +6,11 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
   position: relative;
   display: inline-block;
   padding: 2px;
+  width: 100%;
 }
   
 .tooltip .tooltip-text {
-  width: 80px;
+  width: 72px;
   background-color: var(--color-grey-dark);
   color: #fff;
   text-align: center;
