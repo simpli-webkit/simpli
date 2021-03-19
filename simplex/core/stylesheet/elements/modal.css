@@ -76,9 +76,13 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
   margin: 35px auto 35px auto;
   vertical-align: middle;
 }
-.modal-close {
+.modal-buttons {
   position: absolute;
   top: 24px;
   right: 24px;
   text-decoration: none;
+  display: flex;
+}
+.modal-buttons a {
+  flex-basis: 120px;
 }
