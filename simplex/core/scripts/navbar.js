@@ -5,15 +5,24 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
 function mobileNavbar() {
     var x = document.getElementById("navbarMobile");
     if (x.style.transform === "scale(1, 1)") {
-      x.style.transform = "scale(1, 0)";
-        $('.sitecontent').css("padding-top", 0);
-        if($("nav").hasClass("navbar-transparent")) {
-          $('.navbar-color-transparent-white').removeClass('navbar-color-transparent-white-fill');
-          $('.navbar-color-transparent-red').removeClass('navbar-color-transparent-red-fill');
-          $('.navbar-color-transparent-blue').removeClass('navbar-color-transparent-blue-fill');
-          $('.navbar-color-transparent-purple').removeClass('navbar-color-transparent-purple-fill');
-          $('.navbar-color-transparent-green').removeClass('navbar-color-transparent-green-fill');
+      if ($(this).scrollTop() > triggerH) {
+        if (x.style.transform === "scale(1, 1)") {
+          x.style.transform = "scale(1, 0)";
+          $('.sitecontent').css("padding-top", 0);
         }
+      } else {
+        if (x.style.transform === "scale(1, 1)") {
+          x.style.transform = "scale(1, 0)";
+          $('.sitecontent').css("padding-top", 0);
+            if($("nav").hasClass("navbar-transparent")) {
+              $('.navbar-color-transparent-white').removeClass('navbar-color-transparent-white-fill');
+              $('.navbar-color-transparent-red').removeClass('navbar-color-transparent-red-fill');
+              $('.navbar-color-transparent-blue').removeClass('navbar-color-transparent-blue-fill');
+              $('.navbar-color-transparent-purple').removeClass('navbar-color-transparent-purple-fill');
+              $('.navbar-color-transparent-green').removeClass('navbar-color-transparent-green-fill');
+            }
+        }
+      }
     } else {
       x.style.transform = "scale(1, 1)";
       var clientHeight = document.getElementById('navbarMobile').clientHeight;
