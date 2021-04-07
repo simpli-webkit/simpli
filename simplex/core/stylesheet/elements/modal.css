@@ -32,7 +32,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
   max-height: 220px;
   background: #fff;
   padding: 1em 2em;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .modal-sm {
   border-radius: 8px;
@@ -42,7 +42,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
   max-height: 45%;
   background: #fff;
   padding: 1em 2em;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .modal-md {
   border-radius: 8px;
@@ -52,7 +52,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
   max-height: 70%;
   background: #fff;
   padding: 1em 2em;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .modal-lg {
   border-radius: 8px;
@@ -62,7 +62,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
   max-height: 85%;
   background: #fff;
   padding: 1em 2em;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .modal-full {
   border-radius: 8px;
@@ -72,7 +72,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
   max-height: 95%;
   background: #fff;
   padding: 1em 2em;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 
