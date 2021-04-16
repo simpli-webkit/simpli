@@ -204,6 +204,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     font-size: 14px;
     padding: 12px;
     border-radius: 8px;
+    margin-right: 12px;
 }
 .button-lg {
     font-size: 22px;
