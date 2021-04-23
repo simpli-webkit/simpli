@@ -127,10 +127,10 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     padding-right: 50px;
 }
 .navbar-font-light {
-    color: white;
+    color: white !important;
 }
 .navbar-font-dark {
-    color: black;
+    color: black !important;
 }
 
 /* MOBILE NAVBAR */
