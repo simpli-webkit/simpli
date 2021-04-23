@@ -283,6 +283,10 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     background-color: var(--color-theme-red-dark);
     transition: 0.15s;
 }
+.navbar-color-dark .navbar-item:hover {
+    background-color: var(--color-theme-dark-dark);
+    transition: 0.15s;
+}
 .navbar-color-transparent-white .navbar-item:hover {
     background-color: var(--color-transparent-hover);
     transition: 0.15s;
@@ -300,6 +304,10 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     transition: 0.15s;
 }
 .navbar-color-transparent-red .navbar-item:hover {
+    background-color: var(--color-transparent-hover);
+    transition: 0.15s;
+}
+.navbar-color-transparent-dark .navbar-item:hover {
     background-color: var(--color-transparent-hover);
     transition: 0.15s;
 }
@@ -324,6 +332,10 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     background-color: var(--color-theme-red-dark);
     transition: 0.15s;
 }
+.navbar-color-transparent-dark-fill .navbar-item:hover {
+    background-color: var(--color-theme-dark-dark);
+    transition: 0.15s;
+}
 
 .navbar-color-purple {
     background-color: var(--color-theme-purple);
@@ -343,6 +355,10 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
 }
 .navbar-color-white {
     background-color: var(--color-theme-red);
+    transition: .2s ease all;
+}
+.navbar-color-dark {
+    background-color: var(--color-theme-dark);
     transition: .2s ease all;
 }
 
@@ -366,6 +382,10 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
 }
 .navbar-color-white {
     background-color: var(--color-theme-red);
+    transition: .2s ease all;
+}
+.navbar-color-dark {
+    background-color: var(--color-theme-dark);
     transition: .2s ease all;
 }
 .navbar-color-transparent-white {
@@ -393,6 +413,11 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     transition: .2s ease all;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.18);
 }
+.navbar-color-transparent-dark {
+    background-color: rgba(0,0,0,0);
+    transition: .2s ease all;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.18);
+}
 
 .navbar-color-transparent-white-fill {
     background-color: var(--color-white) !important;
@@ -416,6 +441,11 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
 }
 .navbar-color-transparent-green-fill {
     background-color: var(--color-theme-green) !important;
+    transition: .2s ease all;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.16) !important;
+}
+.navbar-color-transparent-dark-fill {
+    background-color: var(--color-theme-dark) !important;
     transition: .2s ease all;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.16) !important;
 }
