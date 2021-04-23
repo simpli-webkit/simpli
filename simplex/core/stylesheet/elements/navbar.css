@@ -284,7 +284,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     transition: 0.15s;
 }
 .navbar-color-dark .navbar-item:hover {
-    background-color: var(--color-theme-dark-dark);
+    background-color: var(--color-theme-dark-light);
     transition: 0.15s;
 }
 .navbar-color-transparent-white .navbar-item:hover {
@@ -333,7 +333,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     transition: 0.15s;
 }
 .navbar-color-transparent-dark-fill .navbar-item:hover {
-    background-color: var(--color-theme-dark-dark);
+    background-color: var(--color-theme-dark-light);
     transition: 0.15s;
 }
 
