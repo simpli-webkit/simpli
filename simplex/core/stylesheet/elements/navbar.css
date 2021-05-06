@@ -179,7 +179,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
 .navbar-mobile-icon {
     display: flex;
     float: left;
-    width: 65px;
+    width: 50px;
     transition: 0.2s linear;
 }
 .navbar-mobile-icon img {
@@ -197,7 +197,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
         position: fixed;
     }
     .navbar-mobile-icon {
-        padding: 22px 10px 22px 14px !important;
+        padding: 24px 10px 22px 14px !important;
     }
     .navbar-mobile-icon img {
         width: 40px !important;
