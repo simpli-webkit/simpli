@@ -164,7 +164,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
 .navbar-mobile-light {
     float:left;
     text-align: center;
-    background-color: #c6bef8;
+    background-color: #dbd8ec;
     text-decoration: none;
     color: #181a1a;
     cursor: pointer;
@@ -174,7 +174,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
 }
 .navbar-mobile-light:hover {
     transition: 0.2s ease all;
-    background-color: #a398e6;
+    background-color: #c4c1d4;
 }
 .navbar-mobile-icon {
     display: flex;
