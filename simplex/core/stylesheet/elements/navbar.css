@@ -143,23 +143,28 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     text-decoration: none;
     transition: 0.2s ease all;
     transform-origin: top center;
-    border-bottom: 1px solid #181a1a;
+    border-bottom: 1px solid #272929;
     margin-top: 85px;
 }
 .navbar-mobile-dark {
     float:left;
     text-align: center;
-    background-color: #181a1a;
+    background-color: #272929;
     text-decoration: none;
     color: white;
     cursor: pointer;
     padding: 30px 0px 30px 0px;
     z-index: 100;
     transition: 0.2s ease all;
+    
+    -webkit-user-select: none;    
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 }
 .navbar-mobile-dark:hover {
     transition: 0.2s;
-    background-color: #242525;
+    background-color: #1e2020;
 }
 .navbar-mobile-light {
     float:left;
@@ -262,6 +267,11 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     text-decoration: none;
     color: #181a1a;
     transition: 0.2s;
+
+    -webkit-user-select: none;      
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 }
 .navbar-color-purple .navbar-item:hover {
     background-color: var(--color-theme-purple-dark);
