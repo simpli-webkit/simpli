@@ -40,7 +40,7 @@ function mobileNavbar() {
 function mobileNavbarCancel() {
   var x = document.getElementById("navbarMobile");
   var windH = $(window).height(); 
-  triggerH = windH - 220;
+  triggerH = 100; //windH - 220;
 
   if ($(this).scrollTop() > triggerH) {
     if (x.style.transform === "scale(1, 1)") {
@@ -72,7 +72,7 @@ function sidebarDropdownTrigger(selector) {
 
 $(document).ready(function() {
   var windH = $(window).height(); 
-  triggerH = windH - 220;
+  triggerH = 100;//windH - 220;
   $(window).scroll(function() {
 
     if($(this).scrollTop() > triggerH) { 
