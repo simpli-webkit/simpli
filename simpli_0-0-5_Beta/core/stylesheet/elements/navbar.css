@@ -339,7 +339,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     transition: .2s ease all;
 }
 .navbar-color-white {
-    background-color: var(--color-theme-red);
+    background-color: var(--color-white);
     transition: .2s ease all;
 }
 
@@ -362,7 +362,7 @@ AUTHOR: ALEX COLLYER (alex.collyer@getsimpli.co.uk)
     transition: .2s ease all;
 }
 .navbar-color-white {
-    background-color: var(--color-theme-red);
+    background-color: var(--color-white);
     transition: .2s ease all;
 }
 .navbar-color-transparent-white {
